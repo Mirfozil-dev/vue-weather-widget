@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Calibri light", serif;
+  font-weight: 600;
+  color: #333333;
+}
+
+.app {
+  width: 220px;
+  position: relative;
+}
+
+.translate-enter-active,
+.translate-leave-active {
+  transition: all 0.35s ease;
+}
+
+.translate-enter-from,
+.translate-leave-to {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+
+@import "./components/cityInput.scss";
+@import "./components/message.scss";
+@import "./components/header.scss";
+@import "./components/loadingOverlay";
+@import "./components/cityItem";
+@import "./views/settings.scss";

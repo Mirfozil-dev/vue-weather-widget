@@ -1,0 +1,25 @@
+.message {
+  width: 180px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 4px;
+  color: white;
+  opacity: 0;
+  transition: opacity .3s;
+  padding: 2px;
+  text-align: center;
+
+  &_success {
+    background: #198754;
+    opacity: 1;
+  }
+
+  &_error {
+    background: #DC3545;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,24 @@
+.settings {
+  .cities-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      background: #EDEBE9;
+      padding: 10px 5px;
+
+      img:last-child {
+        cursor: pointer;
+      }
+    }
+
+    &__item-bar {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
